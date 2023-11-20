@@ -7,7 +7,9 @@ import Link from "next/link";
 import main from "@/scripts/seed";
 export default function Page() {
   // main()
-  {console.log(process.env.NODE_ENV,process.env.TEST_ENV)}
+
+console.log(process.env.NODE_ENV,process.env.NEXT_PUBLIC_TEST_ENV)
+  
 
   return (
     <main className="flex min-h-screen flex-col p-6">
