@@ -165,9 +165,7 @@ async function seedRevenue(client) {
 
 async function main() {
   const client = await db.connect({
-    POSTGRES_URL:
-      "postgres://default:1LBG9eRSZqud@ep-orange-breeze-10467443-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb",
-
+    POSTGRES_URL:'',
   });
 
   await seedUsers(client);
